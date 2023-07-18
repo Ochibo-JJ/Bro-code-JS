@@ -2,10 +2,44 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pythagorus</title>
+    <style>
+        span{
+            text-decoration: underline;
+            color: maroon;
+            font-weight: 700;
+        }
+        img{
+            width: 500px;
+            margin-bottom: 10px;
+        }
+        .math{
+            border: 3px solid black;
+            border-radius: 10px;
+            padding: 10px;
+            margin-left: 30px;
+            width: 60vw;
+        }
+        h1,p{
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-
+    <div class="math">
+        <h1>Right angled triangle</h1><br>
+        <p>Solve for <span>hypotenuse</span></P>
+        <div class="formula"><img src="https://ichef.bbci.co.uk/images/ic/1280xn/p0dmxwtf.png" alt="Pythagorus theorem"></div>
+        <label id="aLabel">Side A</label><br>
+	    <input type="text" id="aTextBox"><br>
+	    <label id="bLabel">Side B</label><br>
+	    <input type="text" id="bTextBox"><br>
+	    <button type="button" id="submitButton">Submit</button><br>
+	    <label id="cLabel"></label><br>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>

@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/styles.css
+/.vs/Bro-code-JS/FileContentIndex/e38699b4-14ef-4e78-bcb4-985eb3677398.vsidx
+/.vs/Bro-code-JS/FileContentIndex/2e0bda16-fe0e-46b6-86e4-ecf9ee5d1c54.vsidx
+/.vs/Bro-code-JS/FileContentIndex/2e0bda16-fe0e-46b6-86e4-ecf9ee5d1c54.vsidx
+/.vs/Bro-code-JS/FileContentIndex/e38699b4-14ef-4e78-bcb4-985eb3677398.vsidx
+/styles.css
